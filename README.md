@@ -1,6 +1,6 @@
-# probot-security-vulnerabilities
+# probot-security-alerts
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that File issues for GitHub security vulnerabilities alerts
+> A GitHub App built with [Probot](https://github.com/probot/probot) that File issues for GitHub security alerts
 
 ## Setup
 
@@ -17,10 +17,10 @@ npm start
 
 ## Contributing
 
-If you have suggestions for how probot-security-vulnerabilities could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how probot-security-alerts could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2018 Pablo Cantero <pablohstc@gmail.com> (https://github.com/phstc/probot-security-vulnerabilities)
+[ISC](LICENSE) © 2018 Pablo Cantero <pablohstc@gmail.com> (https://github.com/phstc/probot-security-alerts)

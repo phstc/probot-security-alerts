@@ -1,12 +1,12 @@
 {
-  "name": "probot-security-vulnerabilities",
+  "name": "probot-security-alerts",
   "version": "1.0.0",
-  "description": "File issues for GitHub security vulnerabilities alerts",
-  "author": "Pablo Cantero <pablohstc@gmail.com> (https://github.com/phstc/probot-security-vulnerabilities)",
+  "description": "File issues for GitHub security alerts",
+  "author": "Pablo Cantero <pablohstc@gmail.com> (https://github.com/phstc/probot-security-alerts)",
   "license": "ISC",
-  "repository": "https://github.com/phstc/probot-security-vulnerabilities.git",
-  "homepage": "https://github.com/phstc/probot-security-vulnerabilities",
-  "bugs": "https://github.com/phstc/probot-security-vulnerabilities/issues",
+  "repository": "https://github.com/phstc/probot-security-alerts.git",
+  "homepage": "https://github.com/phstc/probot-security-alerts",
+  "bugs": "https://github.com/phstc/probot-security-alerts/issues",
   "keywords": [
     "probot",
     "github",
