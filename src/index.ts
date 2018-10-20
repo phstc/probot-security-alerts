@@ -1,12 +1,22 @@
 import { Application } from 'probot'
 
 export = (app: Application) => {
-  // Your code here
-  app.log('Yay, the app was loaded!')
+  const SECURITY = 'security'
 
-  // For more information on building apps:
-  // https://probot.github.io/docs/
+  app.on('repository_vulnerability_alert.create', async (context) => {
+    const alert = context.payload.alert
+    const title = `Security vulnerability found in ${alert.affected_package_name}`
 
-  // To get your app running against GitHub, see:
-  // https://probot.github.io/docs/development/
+    const body = `- Affected version ${alert.affected_package_name} ${
+      alert.affected_range
+    } \n- Fixed in ${alert.fixed_in}`
+  })
+
+  await github.issues.create({
+    owner,
+    repo,
+    title,
+    body,
+    labels: [SECURITY]
+  })
 }
