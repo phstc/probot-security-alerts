@@ -20,7 +20,7 @@ default_events:
 # - fork
 # - gollum
 # - issue_comment
-- issues
+# - issues
 # - label
 # - milestone
 # - member
@@ -39,6 +39,7 @@ default_events:
 # - release
 # - repository
 # - repository_import
+- repository_vulnerability_alert
 # - status
 # - team
 # - team_add
