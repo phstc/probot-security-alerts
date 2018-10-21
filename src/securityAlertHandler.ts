@@ -1,7 +1,6 @@
-import { Context } from 'probot'
 export const SECURITY = 'security'
 
-export async function createIssue(context: Context) {
+export async function createIssue(context: any) {
   const alert = context.payload.alert
   const github = context.github
   const repo = context.payload.repository.name
