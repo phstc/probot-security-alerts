@@ -2,7 +2,7 @@
   "name": "probot-security-alerts",
   "version": "1.0.0",
   "description": "File issues for GitHub security alerts",
-  "author": "Pablo Cantero <pablohstc@gmail.com> (https://github.com/phstc/probot-security-alerts)",
+  "author": "Pablo Cantero",
   "license": "ISC",
   "repository": "https://github.com/phstc/probot-security-alerts.git",
   "homepage": "https://github.com/phstc/probot-security-alerts",
